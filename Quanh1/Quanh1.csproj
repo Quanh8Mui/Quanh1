@@ -1,0 +1,61 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Form1.cs" />
+    <Compile Remove="Form2.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\net6.0-windows\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net6.0-windows\Quanh1.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net6.0-windows\Quanh1.GlobalUsings.g.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\net6.0-windows\Quanh1.deps.json" />
+    <Content Include="bin\Debug\net6.0-windows\Quanh1.runtimeconfig.json" />
+    <Content Include="obj\Debug\net6.0-windows\Quanh1.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\net6.0-windows\Quanh1.designer.deps.json" />
+    <Content Include="obj\Debug\net6.0-windows\Quanh1.designer.runtimeconfig.json" />
+    <Content Include="obj\project.assets.json" />
+    <Content Include="obj\Quanh1.csproj.nuget.dgspec.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Quanh1.dll" />
+    <None Include="bin\Debug\net6.0-windows\Quanh1.exe" />
+    <None Include="bin\Debug\net6.0-windows\Quanh1.pdb" />
+    <None Include="Form2.cs" />
+    <None Include="obj\Debug\net6.0-windows\apphost.exe" />
+    <None Include="obj\Debug\net6.0-windows\Quanh1.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net6.0-windows\Quanh1.assets.cache" />
+    <None Include="obj\Debug\net6.0-windows\Quanh1.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net6.0-windows\Quanh1.csproj.BuildWithSkipAnalyzers" />
+    <None Include="obj\Debug\net6.0-windows\Quanh1.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net6.0-windows\Quanh1.csproj.GenerateResource.cache" />
+    <None Include="obj\Debug\net6.0-windows\Quanh1.dll" />
+    <None Include="obj\Debug\net6.0-windows\Quanh1.Form1.resources" />
+    <None Include="obj\Debug\net6.0-windows\Quanh1.Form2.resources" />
+    <None Include="obj\Debug\net6.0-windows\Quanh1.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net6.0-windows\Quanh1.genruntimeconfig.cache" />
+    <None Include="obj\Debug\net6.0-windows\Quanh1.pdb" />
+    <None Include="obj\Debug\net6.0-windows\refint\Quanh1.dll" />
+    <None Include="obj\Debug\net6.0-windows\ref\Quanh1.dll" />
+    <None Include="obj\project.nuget.cache" />
+    <None Include="obj\Quanh1.csproj.nuget.g.props" />
+    <None Include="obj\Quanh1.csproj.nuget.g.targets" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\PublishProfiles\" />
+  </ItemGroup>
+
+</Project>
